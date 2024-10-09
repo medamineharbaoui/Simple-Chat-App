@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <title>Lab</title>
+  </head>
+  <body>
+    Name: <input type="text" id="user-name">
+    <br>
+    <br>
+    Password: <input type="text" id="user-password">
+    <br>
+    <br>
+    <button id="register-button" type="button" title="Login">
+      Register
+    </button>
+    <button id="login-button" type="button" title="Login">
+      Login
+    </button>
+    <button id="logout-button" type="button" title="Logout">
+      Logout
+    </button>
+    <button id="get-users-button" type="button" title="Get users">
+      Get users
+    </button>
+    <button id="get-user-button" type="button" title="Get User data">
+      Get user data
+    </button>
+    <button id="ws-connect-button" type="button" title="Open WebSocket connection">
+      Open WebSocket connection
+    </button>
+    <br>
+    <br>
+    User id:
+    <input id="message-user-id" type="number">
+    <br>
+    <br>
+    Message:
+    <input id="message-text" type="text">
+    <br>
+    <br>
+    <button id="send-message-button" type="button" title="Send message">
+      Send message to user (user id)
+    </button>
+    <button id="get-messages-button" type="button" title="Get messages">
+      Get messages with user (user id)
+    </button>
+    <br>
+    <pre id="output-messages" style="height: 400px; overflow: scroll"></pre>
+    <script src="app.js"></script>
+  </body>
+</html>
