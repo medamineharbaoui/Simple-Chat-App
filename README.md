@@ -1,39 +1,49 @@
-Real-Time Chat Application
+# Real-Time Chat Application
 
-This is a simple real-time chat application built using React.js for the frontend, Node.js for the backend, SQLite as the database (using Sequelize ORM), and WebSockets for real-time communication. 
+This is a simple real-time chat application built using React.js for the frontend, Node.js for the backend, SQLite as the database (using Sequelize ORM), and WebSockets for real-time communication.
 The project aims to familiarize developers with working on real-time communication using WebSockets.
 
-Features
+# Features
+
 User login and authentication
 Real-time chat functionality using WebSockets
 Persistent message storage using SQLite
 Responsive UI with React.js
 
 Login View
+![First Screenshot](Screenshot_1.png)
 
 Chat View
+![Second Screenshot](Screenshot_2.png)
 
-#Installation
-Backend Setup
+# Installation
+
+Backend Setup :
 
 git clone https://github.com/your-username/chat-app.git
 cd backend
 npm install
-#Start the backend server:
+
+# Start the backend server:
+
 node index.js
 
-Frontend Setup
+Frontend Setup :
 cd frontend
 npm install
-Start the frontend application:
+
+# Start the frontend application:
+
 npm start
 
-Usage
+# Usage
+
 Open your browser and go to http://localhost:3000.
 Register or login with an existing account.
 Start chatting in real-time with other users!
 
-Technologies Used
+# Technologies Used
+
 Frontend: React.js
 Backend: Node.js
 Database: SQLite with Sequelize ORM
