@@ -1,4 +1,5 @@
-#Real-Time Chat Application
+Real-Time Chat Application
+
 This is a simple real-time chat application built using React.js for the frontend, Node.js for the backend, SQLite as the database (using Sequelize ORM), and WebSockets for real-time communication. 
 The project aims to familiarize developers with working on real-time communication using WebSockets.
 
